@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "img": "https://i.ibb.co/DfXZCYkF/virat-kohli.webp",
+    "nation": "India",
+    "price": 1500000,
+    "rating": 4.8,
+    "role": "Batsman",
+    "batting_style": "Right-handed",
+    "bowling_type": null
+  },
+  {
+    "id": 2,
+    "name": "Joe Root",
+    "img": "https://i.ibb.co/tTV5Y51K/Joe-root.jpg",
+    "nation": "England",
+    "price": 1200000,
+    "rating": 4.6,
+    "role": "Batsman",
+    "batting_style": "Right-handed",
+    "bowling_type": "Off-spin"
+  },
+  {
+    "id": 3,
+    "name": "Babar Azam",
+    "img": "https://i.ibb.co/Qv48vBmM/babar.jpg",
+    "nation": "Pakistan",
+    "price": 1400000,
+    "rating": 4.7,
+    "role": "Batsman",
+    "batting_style": "Right-handed",
+    "bowling_type": null
+  },
+  {
+    "id": 4,
+    "name": "David Warner",
+    "img": "https://i.ibb.co/kgfdVRXQ/David.jpg",
+    "nation": "Australia",
+    "price": 1100000,
+    "rating": 4.5,
+    "role": "Batsman",
+    "batting_style": "Left-handed",
+    "bowling_type": null
+  },
+  {
+    "id": 5,
+    "name": "Ben Stokes",
+    "img": "https://i.ibb.co/zhT4qWjV/Ben-stokes.jpg",
+    "nation": "England",
+    "price": 1800000,
+    "rating": 4.9,
+    "role": "Allrounder",
+    "batting_style": "Left-handed",
+    "bowling_type": "Fast-medium"
+  },
+  {
+    "id": 6,
+    "name": "Hardik Pandya",
+    "img": "https://i.ibb.co/Q7My50bG/Hardik.jpg",
+    "nation": "India",
+    "price": 1600000,
+    "rating": 4.7,
+    "role": "Allrounder",
+    "batting_style": "Right-handed",
+    "bowling_type": "Fast-medium"
+  },
+  {
+    "id": 7,
+    "name": "Pat Cummins",
+    "img": "https://i.ibb.co/SXwLfBWq/Pat.jpg",
+    "nation": "Australia",
+    "price": 1700000,
+    "rating": 4.8,
+    "role": "Bowler",
+    "batting_style": "Right-handed",
+    "bowling_type": "Fast bowler"
+  },
+  {
+    "id": 8,
+    "name": "Rashid Khan",
+    "img": "https://i.ibb.co/r2HN4GjS/rashid.jpg",
+    "nation": "Afghanistan",
+    "price": 1300000,
+    "rating": 4.6,
+    "role": "Bowler",
+    "batting_style": "Right-handed",
+    "bowling_type": "Leg-spin"
+  },
+  {
+    "id": 9,
+    "name": "Jasprit Bumrah",
+    "img": "https://i.ibb.co/35YxwnzZ/bumrah.jpg",
+    "nation": "India",
+    "price": 1900000,
+    "rating": 5.0,
+    "role": "Bowler",
+    "batting_style": "Right-handed",
+    "bowling_type": "Fast bowler"
+  },
+  {
+    "id": 10,
+    "name": "Mitchell Starc",
+    "img": "https://i.ibb.co/8g7fR7db/Starc.jpg",
+    "nation": "Australia",
+    "price": 1750000,
+    "rating": 4.9,
+    "role": "Bowler",
+    "batting_style": "Left-handed",
+    "bowling_type": "Fast bowler"
+  },
+  {
+    "id": 11,
+    "name": "Kane Williamson",
+    "img": "https://i.ibb.co/20MqfGC7/kane.jpg",
+    "nation": "New Zealand",
+    "price": 1250000,
+    "rating": 4.7,
+    "role": "Batsman",
+    "batting_style": "Right-handed",
+    "bowling_type": "Off-spin"
+  },
+  {
+    "id": 12,
+    "name": "Shakib Al Hasan",
+    "img": "https://i.ibb.co/60S6Rzdb/Shakib.jpg",
+    "nation": "Bangladesh",
+    "price": 1450000,
+    "rating": 4.8,
+    "role": "Allrounder",
+    "batting_style": "Left-handed",
+    "bowling_type": "Left-arm spin"
+  }
+]
+
+
+
+
+
+
+
+

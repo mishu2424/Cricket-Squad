@@ -1,10 +1,11 @@
 import './App.css'
+import Body from './Components/Body/Body'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-2xl font-bold'>Cricket Squad</h1>
+      <Body></Body>
     </>
   )
 }
