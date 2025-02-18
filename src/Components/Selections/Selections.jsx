@@ -4,8 +4,7 @@ const Selections = ({
   selections,
   removeSelections,
   setCompo,
-  isLoading,
-  loading,
+  isLoading
 }) => {
   return (
     <div className="w-[90vw] mx-auto space-y-3">
@@ -35,7 +34,6 @@ Selections.propTypes = {
   selections: PropTypes.array,
   removeSelections: PropTypes.func,
   setCompo: PropTypes.func,
-  loading: PropTypes.bool,
   isLoading: PropTypes.func,
 };
 export default Selections;

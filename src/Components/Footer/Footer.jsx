@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-neutral text-neutral-content p-10 pt-10 space-y-5">
       <div className="-translate-y-30 rounded-xl border-4 p-4 glass">
-      <div className="rounded-xl subscribe-section flex flex-col items-center lg:justify-center space-y-3 bg-white bg-[url('../../../assets/bg-shadow.png')] bg-cover bg-no-repeat  p-24 px-36">
+      <div className="rounded-xl subscribe-section flex flex-col items-center lg:justify-center space-y-3 bg-white bg-[url('/assets/bg-shadow.png')] bg-cover bg-no-repeat  p-24 px-36">
         <h2 className="text-sm lg:text-xl font-bold text-center text-black">
           Subscribe to our Newsletter
         </h2>
@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
       <img
         className="w-20 mx-auto"
-        src="../../../assets/logo-footer.png"
+        src="/assets/logo-footer.png"
         alt=""
       />
       <div className="footer footer-container flex flex-col lg:flex-row justify-between">

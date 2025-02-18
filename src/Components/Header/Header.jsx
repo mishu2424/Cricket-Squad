@@ -8,7 +8,7 @@ const Header = ({handleCredits, coin}) => {
       <div className="navbar bg-base-100 py-4 my-3">
         <div className="flex-1">
           <a className="btn btn-ghost">
-            <img src="../../../assets/logo.png" alt="" />
+            <img src="/assets/logo.png" alt="" />
           </a>
         </div>
         <div className="flex items-center gap-10">
@@ -100,13 +100,13 @@ const Header = ({handleCredits, coin}) => {
           </div>
         </div>
       </div>
-      <div className="relative rounded-lg banner flex flex-col items-center justify-center gap-5 bg-gradient-to-br from-gray-900 to-gray-100 bg-[url('../../../assets/bg-shadow.png')] bg-cover bg-no-repeat bg-center p-10">
+      <div className="relative rounded-lg banner flex flex-col items-center justify-center gap-5 bg-gradient-to-br from-gray-900 to-gray-100 bg-[url('/assets/bg-shadow.png')] bg-cover bg-no-repeat bg-center p-10">
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black opacity-70 rounded-lg"></div>
 
         {/* Content */}
         <div className="relative z-10 banner-picture">
-          <img src="../../../assets/banner-main.png" alt="" />
+          <img src="/assets/banner-main.png" alt="" />
         </div>
 
         <div className="relative z-10 banner-details flex flex-col items-center justify-center gap-5">
