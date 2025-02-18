@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import { IoIosFlag } from "react-icons/io";
-import { ToastContainer } from "react-toastify";
 const Player = ({ player, removeCredits }) => {
   const {
     name,
@@ -65,7 +64,6 @@ const Player = ({ player, removeCredits }) => {
           className="btn bg-white"
         >
           Choose Player
-          <ToastContainer position="top-right" autoClose={3000}/>
         </a>
       </div>
     </div>

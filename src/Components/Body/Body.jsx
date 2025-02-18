@@ -10,7 +10,12 @@ const Body = () => {
   const handleCredits = () => {
     const updatedCoin = coin + 6000000;
     setCoin(updatedCoin);
-    toast.success("Credits have been added",{position: "top-right"});
+    toast.dismiss();
+    toast.success("Credits have been added",{
+        pauseOnHover: false, // Ensures it closes even when hovered
+        pauseOnFocusLoss: false, // Closes even if the user switches tabs
+        theme:'colored',
+    });
   };
 
   const removeCredits = (money, player) => {
@@ -24,15 +29,23 @@ const Body = () => {
           setCoin(updateAmount);
           setSelections([...selections, player]);
         } else {
-        //   console.log("You don't have enough amount to buy this player!");
-          toast.error(`You don't have enough amount to buy this player!`,{});
+          //   console.log("You don't have enough amount to buy this player!");
+          toast.dismiss(); 
+          toast.error(`You don't have enough amount to buy this player!`, {theme:'colored',});
         }
       } else {
-        console.log("Players have already been added! ");
+        // console.log("Player have already been added! ");
+        toast.dismiss(); 
+        toast.info("Player has already been added! ", {
+          theme: "colored", // Closes automatically after 3 seconds
+          closeOnClick: true, // Allows user to close on click
+          draggable: true, // Enables dragging the toast
+          pauseOnHover: true, // Stops autoClose on hove
+        });
       }
     } else {
-    //   console.log("Squad Full!");
-      toast.info("Squad Full!",{theme: "colored",});
+      //   console.log("Squad Full!");
+      toast.info("Squad Full!", { theme: "colored" });
     }
   };
 

@@ -5,7 +5,7 @@ import Selections from "../Selections/Selections";
 
 const Main = ({ removeCredits, selections, removeSelections }) => {
   const [compo, setCompo] = useState("players");
-
+  const [loading, isLoading] = useState(true);
   return (
     <div className="space-y-2">
       <div className="w-[90vw] mx-auto section-header flex items-center justify-between">
@@ -18,6 +18,7 @@ const Main = ({ removeCredits, selections, removeSelections }) => {
           <a
             onClick={() => {
               setCompo("players");
+              isLoading(true);
             }}
             className={`join-item btn ${compo==="players" && 'bg-[#E7FE29]'}`}
           >
@@ -36,12 +37,16 @@ const Main = ({ removeCredits, selections, removeSelections }) => {
       {compo === "players" ? (
         <Players
           removeCredits={removeCredits}
+          loading={loading}
+          isLoading={isLoading}
         ></Players>
       ) : (
         <Selections
           selections={selections}
           removeSelections={removeSelections}
           setCompo={setCompo}
+          loading={loading}
+          isLoading={isLoading}
         ></Selections>
       )}
     </div>

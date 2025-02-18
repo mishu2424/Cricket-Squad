@@ -120,7 +120,7 @@ const Header = ({handleCredits, coin}) => {
             <button onClick={handleCredits} className="btn px-10 py-2 border-none bg-[#E7FE29]">
               Claim Free Credit
             </button>
-            <ToastContainer autoClose={3000}/>
+            <ToastContainer position='top-center' autoClose={3000}/>
           </div>
         </div>
       </div>
